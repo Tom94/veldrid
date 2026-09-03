@@ -557,6 +557,8 @@ namespace Veldrid.MTL
                     submitCb.commit();
                 }
 
+                commandQueue.finish();
+
                 mtlSc.InvalidateDrawable();
             }
 
